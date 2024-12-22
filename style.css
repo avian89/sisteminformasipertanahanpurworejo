@@ -1,0 +1,13 @@
+.banner {
+    background: url("images/Background.jpg") no-repeat center center;
+    background-size: contain; /* atau gunakan 'cover' untuk memenuhi area */
+    height: 300px; /* sesuaikan tinggi */
+    width: 95%; /* atau sesuai kebutuhan */
+    padding-top: 25%;
+    padding-bottom: 25%;
+    color:#fff;
+}
+
+.crop-img {
+    object-fit: cover;
+}
